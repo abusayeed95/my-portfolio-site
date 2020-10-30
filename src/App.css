@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
+.navigation .navbar-brand {
+    font-size: 50px;
+    color: #28a745;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navigation .nav-link {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 5px solid transparent;
+    transition: .3s ease;
+    padding: 0;
+    vertical-align: middle;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navigation .nav-link:hover, .navigation .nav-link:focus {
+    border-bottom: 5px solid #ffc107;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navigation .download-cv {
+    color: #ffc107 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.navigation .download-cv:hover {
+    border-bottom: 5px solid #28a745;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.green {
+    color: #28a745 !important;
+}
+
+.yellow {
+    color: #ffc107 !important;
+}
+
+.home {
+    min-height: 75vh;
+}
+
+.my-img-container {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.my-img-container img {
+    width: 95%;
+    height: 95%;
+    border-radius: 5% 30%;
+    border: 10px solid #ffc107;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.my-img-container .box {
+    width: 90%;
+    height: 90%;
+    border-radius: 5% 30%;
+    border: 10px solid #28a745;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #28a745;
+    z-index: -1;
+}
+
+.home .intro {
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    margin: auto;
+}
+
+.primary-btn {
+    display: inline-block;
+    border: 3px solid #ffc107;
+    color: #ffc107;
+    background-color: #28a745;
+    padding: .5rem 1rem;
+    margin: 1rem 1rem;
+    border-radius: 50%;
+    font-size: 25px;
+    transition: .3s ease;
+    animation: button 3s;
+}
+
+@keyframes button {
+    0% {
+        transform: rotate3d(0)
+    }
+    33% {
+        transform: rotate3d(0, 1, 0.5, 3.142rad);
+    }
+    66% {
+        transform: rotate3d(2, -1, -1, -0.2turn)
+    }
+    100% {
+        transform: translate(1, 1, 1, 45deg);
+    }
+}
+
+.primary-btn:hover {
+    border: 3px solid #28a745;
+    color: #28a745;
+    background-color: #ffc107;
+}
+
+/* ABOUT SECTION */
+
+.about-container {
+    min-height: 75vh;
+}
+
+.img-container img {
+    display: inline-block;
+    border-radius: 5% 40% 5% 5%;
+    border: 15px solid #28a745;
+}
+
+.about-container .intro {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about-container table {
+    width: 100%;
+}
+
+.about-container td {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+td a {
+    color: #ffc107;
+}
+
+.touch {
+    border-bottom: 5px solid #28a745;
+}
+
+.vl {
+    height: 100%;
+    border-left: 10px solid #28a745;
+    position: absolute;
+    left: 0;
+}
+
+.contact-area form {
+    width: 80%;
+}
+
+.contact-area input, .contact-area textarea {
+    display: inline-block;
+    width: 100%;
+    color: #ffc107;
+    background-color: transparent;
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 3px solid #28a745 !important;
+    border-radius: 0;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.contact-area input:focus, .contact-area textarea:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #ffc107
+}
+
+.contact-area button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #ffc107;
+    border: 3px solid #ffc107;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+.contact-area button:hover {
+    background-color: #ffc107;
+    color: #28a745;
+    border: 3px solid #28a745;
+}
+
+.card {
+    transition: .3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+    transform: rotate(3deg);
+}
+
+.portfolio .project {
+    border-bottom: 5px solid #ffc107;
+}
+
+.portfolio .project-container {
+    width: 80%;
+}
+
+.portfolio img {
+    width: 100%
+}
+
+.card {
+    background-color: transparent;
+    border: 5px solid #28a745;
+}
+
+.card-body {
+    background-color: transparent;
+}
+
+.card-text {
+    height: 100px;
+    overflow: hidden;
 }
