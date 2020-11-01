@@ -3,12 +3,11 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div style={{
-            minHeight: '70vh',
-            color: 'red'
+            minHeight: '70vh'
         }}
             className="d-flex justify-content-center align-items-center"
         >
-            <h1>
+            <h1 style={{ color: 'red !important' }}>
                 404: Not Found
             </h1>
         </div>
