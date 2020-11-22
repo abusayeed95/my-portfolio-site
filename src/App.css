@@ -233,7 +233,7 @@ td a {
     height: 100%;
     border-left: 10px solid #28a745;
     position: absolute;
-    left: 0;
+    right: 0;
 }
 
 .contact-area form {

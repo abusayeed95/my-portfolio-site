@@ -26,7 +26,7 @@ const Portfolio = () => {
         >
             {
                 props =>
-                    <div style={props} className="portfolio">
+                    <div style={props} className="portfolio py-5 my-5">
                         <div className="d-flex justify-content-center">
                             <h1>Some of My <span className="green project">Projects</span></h1>
                         </div>

@@ -7,6 +7,8 @@ import Particles from 'react-particles-js';
 import { Spring } from 'react-spring/renderprops';
 import TypistLoop from 'react-typist-loop'
 import Contact from '../Contact/Contact';
+import About from '../About/About';
+import Portfolio from '../Portfolio/Portfolio';
 
 const Home = () => {
     const styles = {
@@ -28,7 +30,7 @@ const Home = () => {
                                 "value": 100
                             },
                             "size": {
-                                "value": 1
+                                "value": 3
                             }
                         }
                     }}
@@ -87,7 +89,6 @@ const Home = () => {
                                 </Typist>)}
                             </TypistLoop>
                         </h3>
-
                     </div>
                     <Spring
                         from={{
@@ -118,6 +119,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <About />
+            <Portfolio />
             <Contact />
         </>
     );
