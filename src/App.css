@@ -160,29 +160,66 @@
 
 /* ABOUT SECTION */
 
-.about-container {
-    min-height: 75vh;
-}
-
-.img-container img {
-    display: inline-block;
-    border-radius: 5% 40% 5% 5%;
-    border: 15px solid #28a745;
-}
-
-.about-container .intro {
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.about-container table {
+.about-img img {
     width: 100%;
+    border-radius: 70% 60% 90% 100%;
+    border: 10px solid #ffc107;
 }
 
-.about-container td {
-    font-size: 20px;
-    font-weight: 500;
+.about-img {
+    width: 70%;
+    position: relative;
 }
+
+.about-img:after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #28a745;
+    left: 0;
+    z-index: -1;
+    border-radius: 80% 10% 40% 30%;
+}
+
+.skill {
+    position: relative;
+}
+
+.skill h1 {
+    display: inline-block;
+    background-color: #0e041f
+}
+
+.skill h1::before, .skill h1::after {
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    background: #28a745;
+    content: "";
+    z-index: -1;
+    top: 45%;
+}
+
+.skill h1::before {
+    left: 0;
+}
+
+.skill h1::after {
+    right: 0;
+}
+
+.skills-logo svg {
+    font-size: 50px;
+}
+
+.about .skills-logo .col-2 {
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* next */
 
 td a {
     color: #ffc107;

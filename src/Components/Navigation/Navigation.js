@@ -20,7 +20,7 @@ const Navigation = () => {
                     <Link to="/portfolio" className="nav-link green">Portfolio</Link>
                     <Link to="/contact" className="nav-link green">Contact</Link>
                     <Link to="/blog" className="nav-link green">Blog</Link>
-                    <a className="nav-link green download-cv" href="https://drive.google.com/file/d/1n_WyOpWTddo8uBbx_PLidPB8ZviP1vBQ/view?usp=sharing" target="_blank">Download CV</a>
+                    <a className="nav-link green download-cv" href="https://drive.google.com/file/d/1xgl4dZSYkepxl6cJ9j3uRdrq4_GTeSTZ/view?usp=sharing" target="_blank">Download CV</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
