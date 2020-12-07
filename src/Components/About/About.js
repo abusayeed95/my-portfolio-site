@@ -26,7 +26,11 @@ const About = () => {
                                 in the internet industry. Strong engineering professional skilled in
                                 HTML5/CSS3, Responsive Design, JavaScript, React.js, Node.js,
                                 Express.js, MongoDB, and more.
-                        </p>
+                            </p>
+                            <div className="d-flex justify-content-center my-3 mb-5 pb-5">
+                                <a className="hire" href="https://www.linkedin.com/in/abusayeed95" target="_blank">HIRE ME</a>
+                                <a className="resume" href="https://drive.google.com/file/d/16CRHp_QOdqXOJT4fq-MLXSv4oamYWE-_/view?usp=sharing" target="_blank">RESUME</a>
+                            </div>
                         </div>
                     </Col>
                     <Col xs={6}>
@@ -100,24 +104,6 @@ const About = () => {
                         </Col>
                     </Row>
                 </div>
-                {/* <div>
-                    <ul style={{ fontSize: '30px', fontWeight: '900' }} className="d-flex flex-column align-items-center justify-content-center">
-                        <li>React.js</li>
-                        <li>JavaScript</li>
-                        <li>Node.js</li>
-                        <li>MongoDB</li>
-                        <li>Express.js</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Context API</li>
-                        <li>Bootstrap</li>
-                        <li>Material UI</li>
-                        <li>Responsive Design</li>
-                        <li>Git</li>
-                        <li>Github</li>
-                        <li>ETC</li>
-                    </ul>
-                </div> */}
             </div>
         </div>
     );

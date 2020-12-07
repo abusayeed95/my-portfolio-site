@@ -39,8 +39,8 @@ const Home = () => {
             <div className="sticky-top">
                 <div className="social-links d-flex flex-column justify-content-center align-items-center">
                     <a href="https://www.linkedin.com/in/abusayeed95/" target="_blank" className="social"><FontAwesomeIcon icon={faLinkedin} /></a>
-                    <a href="https://github.com/ahmedmusa995" target="_blank" className="social"><FontAwesomeIcon icon={faGithub} /></a>
-                    <a href="https://www.facebook.com/sayeedsayem95" target="_blank" className="social"><FontAwesomeIcon icon={faFacebook} /></a>
+                    <a href="https://github.com/abusayeed95" target="_blank" className="social"><FontAwesomeIcon icon={faGithub} /></a>
+                    <a href="https://www.facebook.com/abusayeed95" target="_blank" className="social"><FontAwesomeIcon icon={faFacebook} /></a>
                 </div>
             </div>
             <div className="home mt-3 d-flex flex-column align-items-center">
@@ -115,7 +115,7 @@ const Home = () => {
                     </Spring>
                     <div className="d-flex justify-content-center my-3 mb-5 pb-5">
                         <a className="hire" href="https://www.linkedin.com/in/abusayeed95" target="_blank">HIRE ME</a>
-                        <a className="resume" href="https://drive.google.com/file/d/1n_WyOpWTddo8uBbx_PLidPB8ZviP1vBQ/view?usp=sharing" target="_blank">RESUME</a>
+                        <a className="resume" href="https://drive.google.com/file/d/16CRHp_QOdqXOJT4fq-MLXSv4oamYWE-_/view?usp=sharing" target="_blank">RESUME</a>
                     </div>
                 </div>
             </div>
